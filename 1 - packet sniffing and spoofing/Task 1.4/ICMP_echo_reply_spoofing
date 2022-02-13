@@ -1,8 +1,0 @@
-How to send a spoofed ICMP echo request:
-
-
-a. Ogni ICMP Echo Request possiede id, seq number e payload, questi campi devono essere ritornati al mittente inalterati con un ICMP echo reply.
-
-b. Per essere considerato un pacchetto valido, bisogna calcolare il checksum:
-#### 1. Mettere i campi checksum = None
-#### 2. utilizzare la funzione show2() per ricalcolare il checksum
