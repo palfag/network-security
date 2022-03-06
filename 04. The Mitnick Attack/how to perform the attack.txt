@@ -1,0 +1,15 @@
+0. provare ad autenticarsi sul X-Terminal "rsh 10.9.0.5" <--- Authentication failure (ricordarsi di essere sotto l'account seed "su seed")
+
+1. lanciare second_connection_rsh.py
+
+2. lanciare rsh_data.py
+
+3. provare ad autenticarsi sul X-Terminal "rsh 10.9.0.5" <---- Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-54-generic x86_64)
+
+
+
+################################################################################################################################
+E' stato stoppato il container sul quale girava il trusted server (10.9.0.6) in modo che non rispondesse (es inviando RST) al X-Terminal:
+"docker stop 883c00eeeb8b"
+
+Nel vero attacco è stato effettuato un attacco SYN flood sul trusted server, in modo che non rispondesse al SYN-ACK dell'X-Terminal (a seguito del SYN spoofed inviato dall'attacker)
