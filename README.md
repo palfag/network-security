@@ -3,4 +3,4 @@
 
 
 
-![alt text](https://github.com/palfag/network_security/blob/main/photo/spoof.jpeg)
+![alt text](https://github.com/palfag/network_security/blob/main/screenshots/spoof.jpeg)
