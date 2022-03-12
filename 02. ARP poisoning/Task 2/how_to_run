@@ -1,9 +1,0 @@
-1. Run from attack machine send_to_a and send_to_b
-
-2. Establish a telnet connection between A and B
-
-3. Run 'sysctl net.ipv4.ip_forwarding=0'
-
-4. Lauch the telnet_mitm script
-
-5. Type in the Telnet and enjoy the MITM attack

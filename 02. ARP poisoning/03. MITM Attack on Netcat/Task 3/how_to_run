@@ -1,0 +1,11 @@
+1. Run from attack machine send_to_a.py and send_to_b.py
+
+2. Establish Netcat connection between A and B:
+	- on B: nc -lvp 9090     (B server)
+	- on A: nc 10.9.0.6 9090 (A client)
+
+3. Run 'sysctl net.ipv4.ip_forward=0'
+
+4. Lauch the mitm_netcat.py script
+
+5. Type from A to B, and from B to A and see the difference
