@@ -1,0 +1,31 @@
+$TTL 3600
+@       IN      SOA   a.tld-edu-servers.edu. admin.tld-edu-servers.edu. (
+                2008111001
+                8H
+                2H
+                4W
+                1D)
+
+; Records for this nameserver (you need to make changes)
+@                       IN      NS   a.tld-edu-servers.edu.
+a.tld-edu-servers.edu.  IN      A    10.9.0.60
+
+
+; Real records for syr.edu
+syr.edu.                IN      NS   ns1.syr.edu.
+ns1.syr.edu.            IN      A    128.230.12.8
+
+; Add records in the following
+example.edu.            IN      NS   ns.example.edu.
+ns.example.edu.         IN      A    10.9.0.65
+
+; Add three other domains you have chosen
+harvard.edu.             IN	NS   ext-dns-1.harvard.edu.
+ext-dns-1.harvard.edu.   IN	A    128.103.200.35
+
+yale.edu.                IN	NS   PKS1302-102.net.yale.edu.
+PKS1302-102.net.yale.edu. IN	A    128.36.72.27
+
+stanford.edu.            IN	NS   avallone.stanford.edu.
+avallone.stanford.edu.   IN	A    204.63.224.53
+

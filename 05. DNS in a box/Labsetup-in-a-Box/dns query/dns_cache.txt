@@ -1,0 +1,12 @@
+DNS Cache 
+
+rndc dumpdb -cache
+
+cat /var/cache/bind/dump.db 
+
+rndc flush
+
+rndc reload
+
+
+
