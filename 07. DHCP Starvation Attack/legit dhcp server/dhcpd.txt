@@ -1,0 +1,18 @@
+Internet Systems Consortium DHCP Server 4.4.1
+Copyright 2004-2018 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+Config file: /etc/dhcp/dhcpd.conf
+Database file: /var/lib/dhcp/dhcpd.leases
+PID file: /var/run/dhcpd.pid
+
+
+1. vi /etc/dhcp/dhcpd.conf
+
+2. touch /var/lib/dhcp/dhcpd.leases
+
+3. ifconfig eth0 10.9.0.55/24 (rogue dhcp server)
+3. ifconfig eth0 10.9.0.1/24
+
+4. dhcpd
+
